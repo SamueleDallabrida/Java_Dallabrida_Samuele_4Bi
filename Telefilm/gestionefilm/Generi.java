@@ -10,5 +10,6 @@ public enum Generi {
     HORROR,
     GIALLO,
     THRILLER,
-    SENTIMENTALE
+    SENTIMENTALE,
+    SITCOM
 }

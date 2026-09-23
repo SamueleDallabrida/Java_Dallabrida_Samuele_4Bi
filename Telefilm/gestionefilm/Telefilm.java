@@ -21,7 +21,8 @@ public class Telefilm {
     }
 
     public Telefilm () {
-        //Costruttore vuoto (default)
+        setNome("BERLUSCONI");
+        setStato(stato.TERMINATA);
     }
 
     public void setNome(String nome) {
