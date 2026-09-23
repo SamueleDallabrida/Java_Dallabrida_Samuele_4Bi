@@ -20,7 +20,7 @@ public class MainTelefilm {
             // Inserisci il numero di stagionii
             System.out.print("Quante stagioni possiede il telefilm? ");
             int nStagioni = scanner.nextInt();
-            scanner.nextLine(); //salta prossima riga di testo
+            scanner.nextLine();
 
             Stagione[] stagioni = new Stagione[nStagioni]; //creazione array stagioni
 
