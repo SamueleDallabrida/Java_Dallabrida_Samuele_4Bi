@@ -21,8 +21,7 @@ public class Telefilm {
     }
 
     public Telefilm () {
-        setNome("BERLUSCONI");
-        setStato(stato.TERMINATA);
+        setNome("LA VITA");
     }
 
     public void setNome(String nome) {

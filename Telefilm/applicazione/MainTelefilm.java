@@ -26,7 +26,7 @@ public class MainTelefilm {
 
             // Inseririsci i dati di ciascuna stagione
             for (int i = 0; i < nStagioni; i++) {
-                System.out.println("\n--- Inserimento Stagione " + (i + 1) + " ---");
+                System.out.println("\n-- Inserimento Stagione --" + (i + 1) + " ---");
                 
                 System.out.print("Numero episodi: ");
                 int nEpisodi = scanner.nextInt();
@@ -46,17 +46,17 @@ public class MainTelefilm {
             Telefilm tf = new Telefilm(nome, genere, stato, stagioni);
 
             // Test dei vari metodi
-            System.out.println("=== TELEFILM CREATO ===");
+            System.out.println("*** TELEFILM CREATO ***");
             System.out.println(tf.toString());
 
             System.out.println("Media episodi per stagione: " + tf.mediaEpisodiPerStagione());
 
             System.out.print("Inserisci il nome di uno sceneggiatore da cercare: ");
-            String cercaSceneggiatore = scanner.nextLine();
-            if (tf.haSceneggiatore(cercaSceneggiatore)) {
-                System.out.println("Lo sceneggiatore " + cercaSceneggiatore + " ha lavorato al telefilm!");
+            String findSceneggiatore = scanner.nextLine();
+            if (tf.haSceneggiatore(findSceneggiatore)) {
+                System.out.println("Lo sceneggiatore " + findSceneggiatore + " ha lavorato al telefilm!");
             } else {
-                System.out.println("Lo sceneggiatore " + cercaSceneggiatore + " NON è presente.");
+                System.out.println("Lo sceneggiatore " + findSceneggiatore + " NON è presente.");
             }
 
             // 6. Test di CollezioneTelefilm e ordinamento
