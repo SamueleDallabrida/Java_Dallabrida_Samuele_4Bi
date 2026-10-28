@@ -1,4 +1,4 @@
-# Dispensa Integrata sul Class Diagram (UML)
+# Dispensa Class Diagram (UML)
 
 **Informatica – classe 4Bi – Edizione Completa e Integrata**
 
