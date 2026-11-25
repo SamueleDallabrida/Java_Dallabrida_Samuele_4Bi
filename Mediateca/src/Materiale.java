@@ -1,6 +1,6 @@
 public class Materiale extends Object { // padre della classe è implicitamente Object //no elenco di classi padra -> ereditarietà singola
-    protected String titolo;
-    protected String codice;
+    private String titolo;
+    private String codice;
 
     // aggiunge estensioni strutturali o comportamentali alle classi figlie
     // estensioni strutturali: attributi, metodi, costruttori
@@ -18,5 +18,29 @@ public class Materiale extends Object { // padre della classe è implicitamente 
     public String descrizione() {
         return "Titolo: " + titolo + ", Codice: " + codice;
     }
+
+    @Override
+    public String toString() {
+        return "Materiale [titolo=" + titolo + ", codice=" + codice + "]";
+    }
+
+    public String getTitolo() {
+        return titolo;
+    }
+
+    public void setTitolo(String titolo) {
+        this.titolo = titolo;
+    }
+
+    public String getCodice() {
+        return codice;
+    }
+
+    public void setCodice(String codice) {
+        this.codice = codice;
+    }
+
+
+    
 
 }
