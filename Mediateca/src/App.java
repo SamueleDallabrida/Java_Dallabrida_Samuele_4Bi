@@ -1,8 +1,10 @@
 public class App extends Object {
     public static void main(String[] args) throws Exception {
-        Materiale m1 = new Materiale();
+        Materiale m = new Materiale("C1", "OOP no problem");
 
-        Libro l1 = new Libro("Autore1", "Titolo1", "Codice1");
+        System.out.println(m.descrizione());
         
+        Libro l = new Libro("C2", "Ereditarietà", "Montiny");
+        System.out.println(l.descrizione());
     }
 }

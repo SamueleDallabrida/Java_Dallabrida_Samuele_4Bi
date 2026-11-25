@@ -15,8 +15,8 @@ public class Materiale extends Object { // padre della classe è implicitamente 
         this.codice = codice;
     }
 
-    public Materiale() {
-        
+    public String descrizione() {
+        return "Titolo: " + titolo + ", Codice: " + codice;
     }
 
 }
